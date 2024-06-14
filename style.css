@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+html, body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.wrapper{
+    width: 1024px;
+    margin: auto;
+    padding: 20px 0px 20px 0px;
+}
+/*
+*menu
+*/
+nav{
+    background-color: #20262E;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+nav > .wrapper{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    align-items: center;
+}
+
+.menu{ 
+    width: 50%;
+}
+
+.menu > ul {
+   display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-between;
+}
+
+.menu > ul > li > a{
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    justify-content: space-between;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo > img{
+    height: 80px;
+    width: 80px;
+}
+
+/*
+*hero / jumbotron
+*/
+
+header{
+    background: url('../images/pngtree-in-the-style-of-meticulous-military-scenes-picture-image_2882822.jpg');
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    font-family: "Kanit", sans-serif;
+    letter-spacing: 5px;
+    text-shadow: 0 0 4px #000;
+}
+
+.header-opacity{
+    background-color: #20262E;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header-jumbotron{
+    position: absolute;
+    font-size: 25px;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+} 
+
+.header-jumbotron > h4{
+    color: #FFC34E;
+    font-size: 25rem;
+    margin: 0px;
+    padding: opx;
+
+}
+
+.header-jumbotron > h5{
+    color: #fff;
+    margin: 0px;
+    padding: 5px;
+    font-size: 55px;
+    line-height: 50rem;
+    text-transform: uppercase;
+    flex-direction: column;
+}
+
+.header-jumbotron > p{
+    padding: 5px;
+    margin: 0px 5px 20px 5px;
+    color: #fff;
+    font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+    text-shadow: none;
+}
+
+.button{
+    background-color: #FFC34E;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    font-family: "Kanit", sans-serif;
+}
+
+.button-xl{
+    font-size: 20rem;
+    padding: 20px;
+}
+
+/*
+* statistic
+*/
+#statistic{
+    background-color: #31363F;
+}
+
+#statistic > .wrapper{
+    font-size: 25px;
+    padding: 50px;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
